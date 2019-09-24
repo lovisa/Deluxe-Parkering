@@ -1,0 +1,217 @@
+body {
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  color: #404048;
+  padding:0;
+  margin:0;
+  background-color: #FBFBF1;
+}
+
+/* Anywhere */
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button-1 {
+  height: 38px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #FBFBF1;
+}
+
+.dark {
+  padding: 15px;
+  background: #2F3D52;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+/* Header */
+header {
+  background-color: #2F3D52;
+  color: #FBFBF1;
+  padding-top: 10px;
+  min-height: 70px;
+  border-bottom: #FBFBF1 2px solid;
+}
+
+header a {
+  color: #FBFBF1;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  display: inline;
+  padding:0 20px 0 0;
+}
+
+header #branding {
+  float: left;
+  margin-top: 0;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 50px;
+}
+
+header .highlight, header .current a {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: grey;
+  font-weight: bold;
+}
+
+/* Genre img */
+#showcase {
+  min-height: 200px;
+  background: url('../img/park-picture.jpg') 0 -70px rgba(0, 0, 10, 0.15);
+  background-size: 100% auto;
+  background-blend-mode: darken;
+  border-bottom: #FBFBF1 2px solid;
+}
+
+#carwash {
+  min-height: 200px;
+  background: url('../img/carwash.jpg') no-repeat 0 -100px rgba(0, 0, 10, 0.1);
+  background-size: 100% auto;
+  background-blend-mode: darken;
+  border-bottom: #FBFBF1 2px solid;
+}
+
+#map {
+  min-height: 300px;
+  background-size: 100% auto;
+  background-blend-mode: darken;
+}
+
+#web {
+  min-height: 300px;
+  background: url('../img/web-hybrid-native.png') no-repeat;
+  background-size: 100% auto;
+}
+
+/* BOKA PARKERING */
+#boka-parkering {
+  margin: 0;
+  padding: 5px;
+  color: #FBFBF1;
+  background: #2F3D52;
+}
+
+#boka-parkering h1 {
+  float: left;
+}
+
+#boka-parkering form {
+  float: right;
+  margin-top: 20px;
+}
+
+#boka-parkering input[type="email"] {
+  padding: 4px;
+  margin: 0;
+  height: 25px;
+  width: 150px;
+}
+
+/* BOXES */
+#boxes {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#boxes .box {
+  float: left;
+  width: 45%;
+  padding: 10px;
+  align: center;
+}
+
+#boxes .box1 {
+  float: center;
+  width: 90%;
+  padding: 10px;
+  align: center;
+}
+
+.boxen {
+  float: center;
+  width: 95%;
+  align: center;
+  text-align: center;
+  padding: 4px;
+}
+
+aside #sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+article #main-col {
+  float: left;
+}
+
+footer {
+  padding: 2px;
+  color: #ffffff;
+  background: #e8491d;
+  text-align: center;
+}
+
+/* Media (responisive)*/
+@media (max-width: 760px) {
+  header #branding,
+  header nav,
+  header nav li,
+  #boka-parkering h1,
+  #boka-parkering form,
+  #boxes .box,
+  #boxes .box1,
+  .boxen .dark {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #boka-parkering button {
+    display: block;
+    margin-bottom: 20px;
+  }

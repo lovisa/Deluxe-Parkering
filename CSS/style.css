@@ -97,7 +97,7 @@ header a:hover {
 /* Genre img */
 #showcase {
   min-height: 200px;
-  background: url('../img/park-picture.jpg') 0 -70px rgba(0, 0, 10, 0.15);
+  background: url('../IMG/park-picture.jpg') 0 -70px rgba(0, 0, 10, 0.15);
   background-size: 100% auto;
   background-blend-mode: darken;
   border-bottom: #FBFBF1 2px solid;

@@ -105,7 +105,7 @@ header a:hover {
 
 #carwash {
   min-height: 200px;
-  background: url('../img/carwash.jpg') no-repeat 0 -100px rgba(0, 0, 10, 0.1);
+  background: url('../IMG/carwash.jpg') no-repeat 0 -100px rgba(0, 0, 10, 0.1);
   background-size: 100% auto;
   background-blend-mode: darken;
   border-bottom: #FBFBF1 2px solid;
